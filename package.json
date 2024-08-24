@@ -1,0 +1,41 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "are-we-there-yet": "^4.0.2",
+    "framer-motion": "latest",
+    "gauge": "^5.0.2",
+    "gh-pages": "latest",
+    "ityped": "latest",
+    "maath": "latest",
+    "npmlog": "^7.0.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-icons": "latest",
+    "react-parallax-tilt": "latest",
+    "react-router-dom": "latest",
+    "react-slideshow-image": "^4.3.1",
+    "react-tilt": "latest",
+    "react-vertical-timeline-component": "latest",
+    "rimraf": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@vitejs/plugin-react": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "sass": "latest",
+    "tailwindcss": "latest",
+    "vite": "latest"
+  }
+}
