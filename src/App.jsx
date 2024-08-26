@@ -13,8 +13,8 @@ const App = () => {
           <Hero />
         </div>
         <Content />
-        <Education />
         <Project />
+        <Education />
         <Experience />
         <Profile/>
         <Intrest />

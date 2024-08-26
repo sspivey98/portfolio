@@ -475,7 +475,7 @@ import {
     },
     {
       title: "IoT Engineer",
-      company_name: "Noavspect Inc.",
+      company_name: "Novaspect Inc.",
       icon: novaspect,
       iconBg: "#FFFFFF",
       date: "June 2021 - Sept 2023",

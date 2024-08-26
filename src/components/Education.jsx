@@ -50,9 +50,9 @@ const FeedbackCard = ({
 
 const Education = () => {
   return (
-    <div className={`mt-12 bg-tertiary rounded-[20px]`}>
+    <div className={`mt-12 bg-secondary rounded-[20px]`}>
       <div
-        className={`bg-black-100 rounded-2xl ${styles.padding} min-h-[300px]`}
+        className={`bg-black-100 rounded-2xl ${styles.padding} min-h-[250px]`}
       >
         <motion.div variants={textVariant()}>
           <h2 className={styles.sectionHeadText}>Education</h2>
