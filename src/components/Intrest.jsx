@@ -27,4 +27,4 @@ const Intrest = () => {
   );
 };
 
-export default SectionWrapper(Intrest, "");
+export default SectionWrapper(Intrest, "intrest");
