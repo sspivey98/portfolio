@@ -18,7 +18,7 @@
 
 ## exporting / importing
 
-- `docker save -o portfolio.tar`
+- `docker save -o portfolio.tar portfolio:vX.X`
 
 then...
 
