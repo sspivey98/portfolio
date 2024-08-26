@@ -464,7 +464,7 @@ import {
   const experiences = [
     {
       title: "Solutions Arcitect Consultant",
-      company_name: "Adatafy",
+      company_name: "Adatafy™",
       icon: adatafy,
       iconBg: "#FFFFFF",
       date: "Sept 2023 - Present",
@@ -475,7 +475,7 @@ import {
     },
     {
       title: "IoT Engineer",
-      company_name: "Noavspect Inc.",
+      company_name: "Novaspect Inc.",
       icon: novaspect,
       iconBg: "#FFFFFF",
       date: "June 2021 - Sept 2023",
@@ -487,7 +487,7 @@ import {
     },
     {
       title: "Software Engineer Intern",
-      company_name: "First Trust Portfolios",
+      company_name: "First Trust Portfolios LP",
       icon: ftp,
       iconBg: "#FFFFFF",
       date: "Summer 2019, Winter 2019, Winter 2021",

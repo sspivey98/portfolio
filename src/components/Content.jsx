@@ -17,18 +17,18 @@ const Content = () => {
           <AiOutlineHome />
         </a>
         <a
-          href="#education"
-          onClick={() => setActiveNav("#education")}
-          className={activeNav === "#education" ? "active" : ""}
-        >
-          <BiBook />
-        </a>
-        <a
           href="#project"
           onClick={() => setActiveNav("#project")}
           className={activeNav === "#project" ? "active" : ""}
         >
           <AiOutlineFundProjectionScreen />
+        </a>
+        <a
+          href="#education"
+          onClick={() => setActiveNav("#education")}
+          className={activeNav === "#education" ? "active" : ""}
+        >
+          <BiBook />
         </a>
         <a
           href="#experience"
@@ -38,9 +38,9 @@ const Content = () => {
           <BsPersonWorkspace />
         </a>
         <a
-          href="#contact"
-          onClick={() => setActiveNav("#contact")}
-          className={activeNav === "#contact" ? "active" : ""}
+          href="#intrest"
+          onClick={() => setActiveNav("#intrest")}
+          className={activeNav === "#intrest" ? "active" : ""}
         >
           <MdMessage />
         </a>

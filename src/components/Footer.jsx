@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className="footer text-center">
         <p className="hover:underline"> 
-          <a href="/" target="_blank">
+          <a href="https://github.com/sspivey98/portfolio" target="_blank">
             {" "}
             Website source code
           </a>

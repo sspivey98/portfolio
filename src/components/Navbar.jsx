@@ -49,7 +49,7 @@ const Navbar = () => {
         <div className='sm:flex gap-5'>
           <div
               className={`top2 ${"text-white"
-              } hover:text-black text-[15px] font-medium cursor-pointer`}
+              } hover:text-yellow-600 text-[15px] font-medium cursor-pointer`}
             >
               <a href="https://drive.kiwitactics.com/s/KySTjbXLK6242Wq" target="_blank">Resume</a>
           </div>
