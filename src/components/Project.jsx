@@ -90,10 +90,6 @@ const Project = () => {
       <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
 
       <div className='project w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-white text-[17px] leading-[30px]'
-        >
         <ul>
         {list.map((item) => (
           <ProjectList
@@ -112,9 +108,6 @@ const Project = () => {
           </div>
         ))}
       </div>
-
-
-      </motion.p>
       </div>
 
     </>
