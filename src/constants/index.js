@@ -74,19 +74,19 @@ import {
 
   const intrests = [
     {
-      title: "'Foodie', is what my friends call me. I have cooked with nationally ranked BBQ Pitmasters and served a lot of BBQ. I have also worked as a line cook and chef. The phrase 'Easy to please, hard to impress.' describes my culinary standards well.",
+      title: "'Foodie' is what my friends call me. I have cooked with nationally ranked BBQ Pitmasters and served a lot of BBQ. I have also worked as a line cook and chef. The phrase 'Easy to please, hard to impress.' describes my culinary standards well.",
     },
     {
       title: "I played soccer for my undergrad team and totalled just under 20 years of competitive play. Also, come on you Gunners!",
     },
     {
-      title: "I speak 2.5 languages - Fluently speak French and some Japanese. My Japanese oral skills are weak, but I have had my phone exclusively in Japanese for around 7 years now.",
+      title: "I speak 2.5 languages—fluently speak French and some Japanese. My Japanese oral skills are weak, but I have had my phone exclusively in Japanese for around 7 years now.",
     },
     {
-      title: "I like Video Games. I played Rocket League on a semi-professional team for ~2 years. In my limited freetime, I still enjoy playing RTS, FPS, and silly games with my friends. I also have a mini-obsession with Pokémon, which may explain why I learned Japanese.",
+      title: "I like video games. I played Rocket League on a semi-professional team for ~2 years. In my limited freetime, I still enjoy playing RTS, FPS, and silly games with my friends. I also have a mini-obsession with Pokémon, which may explain why I learned Japanese.",
     },
     {
-      title: "I have my FE! I plan of taking my PE (for ECE) Fall 2025.",
+      title: "I have my FE! I plan on taking my PE (for ECE) Fall 2025.",
     },
   ]
 
@@ -94,7 +94,7 @@ import {
     {
       name: "Cloud applications for Rural Communities",
       description:
-        "Engineered a cloud service for rural communities that is focused on fault-tolerance, availability, and limited bandwidth. This research is still on-going.",
+        "Engineered a cloud service for rural communities that is focused on fault tolerance, availability, and limited bandwidth. This research is still ongoing.",
       tags: [
         {
           name: "Python",
@@ -119,7 +119,7 @@ import {
     {
       name: "Decentralized RC car",
       description:
-        "Created a RTOS in C for 2 co-dependent ARM chips. Designed and oursourced a PCB to integrate ARM chips together. Programmed a decentralized system to be able to wirelessly drive a RC car from a cockpit.",
+        "Created a RTOS in C for 2 co-dependent ARM chips. Designed and outsourced a PCB to integrate ARM chips together. Programmed a decentralized system to be able to wirelessly drive a RC car from a cockpit.",
       tags: [
         {
           name: "C",
@@ -140,7 +140,7 @@ import {
     {
       name: "Fault-Tolerant Distributed System",
       description:
-        "Lead a team of 4 engineers to build a fault-tolerant distributed system. This system spanned ~8 microservices (~20 with replication), and could handle (n-1) crashes at any point within the system without loss of data or service.",
+        "Lead a team of 4 engineers to build a fault-tolerant distributed system. This system spanned ~8 microservices (~20 with replication) and could handle (n-1) crashes at any point within the system without loss of data or service.",
       tags: [
         {
           name: "Python",
@@ -161,7 +161,7 @@ import {
     {
       name: "Android RTOS",
       description:
-        "Modifed an Android Kernel to become a Real-time Operating System. Created a Task Monitor application to display scheduling. Documentation that I wrote was incorporated for future use for later offerings of the course.",
+        "Modifed an Android kernel to become a real-time operating system. Created a Task Monitor application to display scheduling. Documentation that I wrote was incorporated for future use for later offerings of the course.",
       tags: [
         {
           name: "C",
@@ -186,7 +186,7 @@ import {
     {
       name: "eBPF Fuzzing",
       description:
-        "Research done over 6 months on Linux's eBPF. This is on-going research at CMU.",
+        "Research done over 6 months on functional correctness of Linux's eBPF. This is on-going research at CMU.",
       tags: [
         {
           name: "C++",
@@ -231,7 +231,7 @@ import {
     {
       name: "Air Compressor Skid",
       description:
-        "Validation system for air compressor vendor with PLC, SCADA, and software to fully automate the testing process of air compressors. Used Stimulsoft reporting engine to produce data spec sheets.",
+        "Validation system for air compressor vendor with PLC, SCADA, and software to fully automate the testing process of air compressors. I spoke at a conference for this project.",
       tags: [
         {
           name: "Lua",
@@ -251,7 +251,7 @@ import {
         },
       ],
       image: presentation,
-      source_link: "",
+      source_link: "https://www.novaspect.com/case-studies/improved-testing-processes-and-automated-compliance/",
     },
     {
       name: "Agnostic CMMS Connector",
@@ -370,7 +370,7 @@ import {
     {
       name: "Self-Hosting",
       description:
-        "I Self-Host alternatives for Google Drive (nextcloud), Google Photos (immich), and Streamming (Jellyfin & Plex) for my friends and family. This website you're viewing right now is also self-hosted!",
+        "I self-host alternatives for Google Drive (nextcloud), Google Photos (immich), and streamming (Jellyfin & Plex) for my friends and family. This website you're viewing right now is also self-hosted!",
       tags: [
         {
           name: "Nginx",
@@ -395,7 +395,7 @@ import {
     {
       name: "Stealth Start-up",
       description:
-        "Co-founded with a current practicing neurosurgen, We identified a need for a tool in the neuroscience field of research. More information can be provided upon a direct request.",
+        "Co-founded with a current practicing neurosurgeon, We identified a need for a tool in the neuroscience field of research. More information can be provided upon a direct request.",
       tags: [],
       image: stealthstartup,
       source_link: "",
@@ -403,7 +403,7 @@ import {
     {
       name: "Nand2Tetris",
       description:
-        "Went through the entire Nand2Tetris course, where I first learned about how a computer works from NAND gates to operating systems. I would recommend checking out 'Turing Complete' game on Steam as an alternative.",
+        "Went through the entire Nand2Tetris course, where I first learned about how a computer works, from NAND gates to operating systems. I would recommend checking out the 'Turing Complete' game on Steam as a starter for this.",
       tags: [
         {
           name: "Assembly",
@@ -469,7 +469,7 @@ import {
       iconBg: "#FFFFFF",
       date: "Sept 2023 - Present",
       points: [`
-        I have been working here part-time ~20-30 hours a week while doing full-time graduate school. I work as consultant to lead more complex projects, as one my most valued skills is the ability to be lead technical while effectively communicating with the business side.
+        I have been working here part-time, ~20-30 hours a week, while doing full-time graduate school. I work as a consultant to lead more complex projects. One of my most valued skills is the ability to lead technical projects while effectively communicating with the business side.
         Look for some of my work in the 'Project' section of this website: 'CMMS Connector', 'Lua GUI Debugger', and 'Internal Product Website'.
       `],
     },
@@ -480,8 +480,8 @@ import {
       iconBg: "#FFFFFF",
       date: "June 2021 - Sept 2023",
       points: [`
-        The first weeks of starting my first salary job, people asked, "Who did you know to get this job?" (spoiler: nobody) After 2 years, I had received 4 raises and an indirect report for 3 other engineers. 
-        This company invested in me to go to graduate school in order to tackle some more "difficult" projects. My department was spun-off into its own trademark, Adatafy. 
+        In the first weeks of starting my first salary job, people asked, "Who did you know to get this job?" (spoiler: nobody) After 2 years, I had received 4 raises and an indirect report for 3 other engineers. 
+        This company invested in me to go to graduate school in order to tackle some more "difficult" projects. My department was spun off into its own trademark, Adatafy. 
         Look for some of my work in the 'Project' section of this website: 'Autonomous Batch', 'Air-Compressor Skid', and 'Systems Architecture'.
       `],
     },
@@ -492,7 +492,7 @@ import {
       iconBg: "#FFFFFF",
       date: "Summer 2019, Winter 2019, Winter 2021",
       points: [
-        "Had 3 internships here under 3 seperate departments. The most interesting was under the research department, where I developed a report alarm dashboard to quickly display infrastructure health using: Delphi, ASP.net, and SQL-like in-house database."
+        "Had 3 internships here under 3 separate departments. The most interesting was under the research department, where I developed a report alarm dashboard to quickly display infrastructure health using Delphi, ASP.NET, and SQL-like in-house database."
       ],
     },
     {
@@ -514,7 +514,7 @@ import {
       branch:
         "Software Engineering, Electrical & Computer Engineering",
       marks:
-        "GPA : 3.73 / 4",
+        "GPA : 3.73 / 4.0",
       name: "Olivet Nazarene University",
       year: "(2017 - 2021)",
       image: undergrad,
@@ -524,7 +524,7 @@ import {
         "M.S.",
       branch : "Electrical & Computer Engineering",
       marks:
-        "GPA : 4.0 / 4",
+        "GPA : 4.0 / 4.0",
       name: "Carnige Mellon University",
       year: "(2023 - 2024)",
       image: grad,

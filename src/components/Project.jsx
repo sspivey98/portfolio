@@ -24,45 +24,43 @@ const ProjectCard = ({
   source_link,
 }) => {
   return (
-    <motion.div>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className='project-box bg-tertiary p-5 rounded-2xl sm:w-[330px] w-full'
+    <Tilt
+      options={{
+        max: 45,
+        scale: 1,
+        speed: 450,
+      }}
+      className='project-box bg-tertiary p-5 rounded-2xl sm:w-[330px] w-full'
+    >
+      <div 
+        className='Box1 relative w-full h-[180px]' 
+        onClick={() => sourceclick(source_link)}
       >
-        <div 
-          className='Box1 relative w-full h-[180px]' 
-          onClick={() => sourceclick(source_link)}
-        >
-          <img
-            src={image}
-            alt='project_image'
-            className='image w-full h-full object-cover rounded-2xl'
-          />
-          <div className='absolute inset-0 flex justify-center card-img_hover' style={{alignItems: "center",}}>
-            <h3 className='text-black font-bold text-[16px]'>{name}</h3>
-          </div>        
-        </div>
+        <img
+          src={image}
+          alt='project_image'
+          className='image w-full h-full object-cover rounded-2xl'
+        />
+        <div className='absolute inset-0 flex justify-center card-img_hover' style={{alignItems: "center",}}>
+          <h3 className='text-black font-bold text-[16px]'>{name}</h3>
+        </div>        
+      </div>
 
-        <div className='content mt-5'>
-          <p className='mt-2 text-white text-[14px]' style={{textAlign:'justify'}}>{description}</p>
-        </div>
+      <div className='content mt-5'>
+        <p className='mt-2 text-white text-[14px]' style={{textAlign:'justify'}}>{description}</p>
+      </div>
 
-        <div className='content mt-4 flex flex-wrap gap-2'>
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              &gt;{tag.name}
-            </p>
-          ))}
-        </div>
-      </Tilt>
-    </motion.div>
+      <div className='content mt-4 flex flex-wrap gap-2'>
+        {tags.map((tag) => (
+          <p
+            key={`${name}-${tag.name}`}
+            className={`text-[14px] ${tag.color}`}
+          >
+            &gt;{tag.name}
+          </p>
+        ))}
+      </div>
+    </Tilt>
   );
 };
 const Project = () => {
