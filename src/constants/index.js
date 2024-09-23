@@ -530,6 +530,36 @@ import {
       image: grad,
     },
   ];
+  const courseList = [
+    {
+      number: "18-847A",
+      name: "High Performance Computing"
+    },
+    {
+      number: "18-847B",
+      name: "Modern Computer Systems"
+    },
+    {
+      number: "18-845",
+      name: "Internet Services"
+    },
+    {
+      number: "18-749",
+      name: "Fault-Tolerant Distributed Systems"
+    },
+    {
+      number: "18-739D",
+      name: "Offensive Cybersecurity"
+    },
+    {
+      number: "18-649",
+      name: "Distributed Embedded Systems"
+    },
+    {
+      number: "18-648",
+      name: "Embedded Real-Time Systems"
+    },
+  ];
   
   const list = [    
   {
@@ -545,4 +575,4 @@ import {
     title: "Personal",
   },
 ];
-  export { list, profiles, experiences, educations, intrests };
+  export { list, profiles, experiences, educations, intrests, courseList };

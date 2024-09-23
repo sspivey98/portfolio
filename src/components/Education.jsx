@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { educations } from "../constants";
+import { educations, courseList } from "../constants";
+import { useState } from "react";
 import "./Education.scss";
 
 const FeedbackCard = ({
@@ -48,7 +49,25 @@ const FeedbackCard = ({
   </motion.div>
 );
 
+const ListCourses = ({number, name}) => (
+  <p>
+    <span className='green-text-gradient'>{number}: </span>
+    <span>{name}</span>
+  </p>
+)
+
 const Education = () => {
+  const [toggleHide, setToggleHide] = useState(false);
+  const [buttonText, setButtonText] = useState("See courses...")
+  function handleClick() {
+    if (!toggleHide) {
+      setButtonText("Show less")
+    } else {
+      setButtonText("See courses...")
+    }
+    setToggleHide(!toggleHide);
+  };
+
   return (
     <div className={`mt-12 bg-secondary rounded-[20px]`}>
       <div
@@ -63,6 +82,14 @@ const Education = () => {
           <FeedbackCard key={education.name} index={index} {...education} />
         ))}
       </div>
+      <div className={`justify-center pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
+          <button className='HideOrShowButton ' onClick={() => handleClick()}>{buttonText}</button>
+      </div>
+      {toggleHide && <div className={`justify-center pb-14 ${styles.paddingX} flex flex-col items-center gap-7`}> 
+        {courseList.map((course) => (
+          <ListCourses key={course.number} {...course} />
+        ))}
+      </div>}
     </div>
   );
 };
