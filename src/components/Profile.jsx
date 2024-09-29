@@ -18,7 +18,7 @@ const Profile = () => {
       {profiles.map((profile) => (
         <div className="skill" data-aos="fade-up" data-aos-delay="200" key={profile.name}>
         <div className="icon-container" key={profile.name}>
-          <img src={profile.icon} alt={profile.name} />
+          <img src={profile.icon} alt={profile.name} title={profile.name}/>
         </div>
       </div>
       ))}

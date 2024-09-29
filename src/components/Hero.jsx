@@ -5,9 +5,7 @@ import {AiOutlineGithub } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import {ImLinkedin} from "react-icons/im";
 import { myself, cloud, car, printing, architecture, presentation, paper, selfhost, android, cobra, } from "../assets";
-// import { Slide } from 'react-slideshow-image';
 import "./Hero.scss";
-// import 'react-slideshow-image/dist/styles.css'
 
 const slideImages = [
   cloud,
@@ -33,7 +31,6 @@ const Hero = () => {
   <section className={`relative w-full h-screen mx-auto`}>
     <div className="flex flex-row">
       <div
-        // className={`head1 absolute  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
         className='head1 w-full flex max-w-7xl mx-auto ${styles.paddingX} gap-5'
       >
         <div className='flex flex-col items-center mt-20'>
@@ -77,33 +74,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-{/* <div>
-<div className="imgcontainer1 bg-secondary">
-  <img src={myself} alt="" className="object-contain"/>
-</div>
-
-<div className="head2">
-  <h1 className={`${styles.heroHeadText} text-white`}>
-    Hello, I'm <p className='name text-[#00ff99]'>Simon Spivey</p>
-  </h1>
-
-  <h3>
-    <span className={`${styles.heroSubText} mt-2 text-white`}>&gt;</span>
-    <span ref={textRef} className={`${styles.heroSubText} mt-2 green-text-gradient`}></span>
-  </h3>
-
-<div className="absolute link1">        
-  <a
-    href="https://github.com/sspivey98" target="_blank">
-    <AiOutlineGithub />
-  </a>
-  <a
-    href="https://www.linkedin.com/in/sspivey98/" target="_blank">
-    <ImLinkedin />
-  </a>
-  <a
-    href="mailto:sspivey@cmu.edu">
-    <MdEmail />
-  </a>
-</div> */}

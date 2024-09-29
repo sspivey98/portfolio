@@ -51,7 +51,7 @@ const Navbar = () => {
               className={`top2 ${"text-white"
               } hover:text-yellow-600 text-[15px] font-medium cursor-pointer`}
             >
-              <a href="https://drive.kiwitactics.com/s/KySTjbXLK6242Wq" target="_blank">Resume</a>
+              <a href="/resume.pdf" target="_blank">Resume</a>
           </div>
         </div>
       </div>

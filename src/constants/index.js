@@ -74,6 +74,9 @@ import {
 
   const intrests = [
     {
+      title: "I started my tech journey when I was 11 years old when I built my first computer. I then delved into the software world when creating minecraft mods and hosting a popular Minecraft server."
+    },
+    {
       title: "'Foodie' is what my friends call me. I have cooked with nationally ranked BBQ Pitmasters and served a lot of BBQ. I have also worked as a line cook and chef. The phrase 'Easy to please, hard to impress.' describes my culinary standards well.",
     },
     {
@@ -135,7 +138,7 @@ import {
         },
       ],
       image: car,
-      source_link: "https://drive.kiwitactics.com/s/jpfSF85AKXDMw7P",
+      source_link: "/18649_finalreport.pdf",
     },
     {
       name: "Fault-Tolerant Distributed System",
@@ -156,7 +159,7 @@ import {
         },
       ],
       image: cobra,
-      source_link: "https://courses.ece.cmu.edu/18749",
+      source_link: "",
     },
     {
       name: "Android RTOS",
@@ -202,7 +205,7 @@ import {
         },
       ],
       image: paper,
-      source_link: "https://drive.kiwitactics.com/s/M68xNsy9fCneYm7",
+      source_link: "/18845_eBPF.pdf",
     },
     {
       name: "Touchless Automated Fridge",
@@ -463,31 +466,34 @@ import {
   
   const experiences = [
     {
-      title: "Solutions Arcitect Consultant",
+      title: "Solutions Architect Consultant",
       company_name: "Adatafy™",
+      url: "https://adatafy.com/",
       icon: adatafy,
       iconBg: "#FFFFFF",
       date: "Sept 2023 - Present",
       points: [`
-        I have been working here part-time, ~20-30 hours a week, while doing full-time graduate school. I work as a consultant to lead more complex projects. One of my most valued skills is the ability to lead technical projects while effectively communicating with the business side.
+        My department within Novaspect was spun off into its own trademark, Adatafy. I have been working here part-time, ~20-30 hours a week, while doing full-time graduate school. I work as a consultant to lead more complex projects. One of my most valued skills is the ability to lead technical projects while effectively communicating with the business side.
         Look for some of my work in the 'Project' section of this website: 'CMMS Connector', 'Lua GUI Debugger', and 'Internal Product Website'.
       `],
     },
     {
       title: "IoT Engineer",
       company_name: "Novaspect Inc.",
+      url: "https://www.novaspect.com/",
       icon: novaspect,
       iconBg: "#FFFFFF",
       date: "June 2021 - Sept 2023",
       points: [`
         In the first weeks of starting my first salary job, people asked, "Who did you know to get this job?" (spoiler: nobody) After 2 years, I had received 4 raises and an indirect report for 3 other engineers. 
-        This company invested in me to go to graduate school in order to tackle some more "difficult" projects. My department was spun off into its own trademark, Adatafy. 
+        The projects and problems encountered encouraged me to go to graduate school. 
         Look for some of my work in the 'Project' section of this website: 'Autonomous Batch', 'Air-Compressor Skid', and 'Systems Architecture'.
       `],
     },
     {
       title: "Software Engineer Intern",
       company_name: "First Trust Portfolios LP",
+      url: "https://www.ftportfolios.com/",
       icon: ftp,
       iconBg: "#FFFFFF",
       date: "Summer 2019, Winter 2019, Winter 2021",
@@ -498,6 +504,7 @@ import {
     {
       title: "Software Engineer Intern",
       company_name: "Medical Marketing Services Inc.",
+      url: "https://www.mmslists.com/",
       icon: mms,
       iconBg: "#FFFFFF",
       date: "Summer 2018",
