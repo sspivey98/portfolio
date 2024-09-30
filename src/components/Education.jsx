@@ -51,7 +51,7 @@ const FeedbackCard = ({
 
 const ListCourses = ({number, name}) => (
   <p>
-    <span className='green-text-gradient'>{number}: </span>
+    <span className='text-green-400'>{number}: </span>
     <span>{name}</span>
   </p>
 )

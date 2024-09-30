@@ -1,7 +1,7 @@
 import {
-    clang,csharp,powershell,lua,javascript,typescript,python,
+    clang,csharp,powershell,lua,javascript,typescript,cpp,python,
     docker,postgresql,nextjs,git,elasticsearch,mongodb,reactjs,tailwind,
-    mms, ftp, novaspect, adatafy,
+    mms, ftp, novaspect, adatafy, wa,
     grad, undergrad,
     cloud,android,car,cobra,fridge,paper,
     presentation,cmms,batch,architecture,debug,
@@ -28,6 +28,10 @@ import {
     {
       name: "TypeScript",
       icon: typescript,
+    },
+    {
+      name: "C++",
+      icon: cpp,
     },
     {
       name: "Python3",
@@ -87,6 +91,9 @@ import {
     },
     {
       title: "I like video games. I played Rocket League on a semi-professional team for ~2 years. In my limited freetime, I still enjoy playing RTS, FPS, and silly games with my friends. I also have a mini-obsession with Pokémon, which may explain why I learned Japanese.",
+    },
+    {
+      title: "I am classically trained pianist that still enjoys playing and writing music. I was only a level away from being AIM certified piansist. My parents note that when I worked remote at their house, I would use the piano to help me process difficult technical problems."
     },
     {
       title: "I have my FE! I plan on taking my PE (for ECE) Fall 2025.",
@@ -498,7 +505,7 @@ import {
       iconBg: "#FFFFFF",
       date: "Summer 2019, Winter 2019, Winter 2021",
       points: [
-        "Had 3 internships here under 3 separate departments. The most interesting was under the research department, where I developed a report alarm dashboard to quickly display infrastructure health using Delphi, ASP.NET, and SQL-like in-house database."
+        "Had 3 software internships here under 3 separate departments. The most interesting was under the research department, where I developed a report alarm dashboard to quickly display infrastructure health using Delphi, ASP.NET, and SQL-like in-house database."
       ],
     },
     {
@@ -508,11 +515,21 @@ import {
       icon: mms,
       iconBg: "#FFFFFF",
       date: "Summer 2018",
-      link: "",
       points: [
         "My first ever software internship. Wrote standards for migrating ~70 legacy interactive advertisement web-brocheurs from VB to VB.net and did the work of migrating them.",
       ],
     },
+    {
+      title: "IT Assistant",
+      company_name: "Wheaton Academy",
+      url: "https://wheatonacademy.org/",
+      icon: wa,
+      iconBg: "#FFFFFF",
+      date: "Fall 2014 - May 2017",
+      points: [
+        "This is where my tech career got kick started. I was poking around the school network, which led to a meeting with the IT director. We discovered we both spoke french, and he offered me to work under him replacing my mandatory workstudy hours and paid summers. I pulled cable, installed wall plates, routers, switches, and repaired computers."
+      ]
+    }
   ];
   
   const educations = [

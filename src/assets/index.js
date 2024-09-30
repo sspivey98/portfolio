@@ -12,6 +12,7 @@ import nextjs from "./tech/nextjs.png";
 import elasticsearch from "./tech/elasticsearch.svg";
 import git from "./tech/git.png";
 import python from "./tech/python.svg";
+import cpp from "./tech/cpp.svg"
 import javascript from "./tech/javascript.png";
 import typescript from "./tech/typescript.png";
 import powershell from "./tech/powershell.svg"; 
@@ -24,6 +25,7 @@ import adatafy from "./adatafy.png";
 import novaspect from "./novaspect.jpg";
 import ftp from "./ftp.jpg";
 import mms from "./mms.png";
+import wa from "./wa.png"
 
 //Education
 import grad from "./grad.png";
@@ -55,9 +57,9 @@ import thiswebsite from "./project/thiswebsite.png"
 export {
   logo,myself,
   github,
-  clang,csharp,powershell,lua,javascript,typescript,python,
+  clang,csharp,powershell,lua,javascript,typescript,cpp,python,
   docker,postgresql,nextjs,git,elasticsearch,mongodb,reactjs,tailwind,
-  mms,ftp,novaspect,adatafy,
+  mms,ftp,novaspect,adatafy,wa,
   grad,undergrad,
   cloud,android,car,cobra,fridge,paper,
   presentation,cmms,batch,architecture,debug,
