@@ -1,9 +1,9 @@
 import {
     clang,csharp,powershell,lua,javascript,typescript,cpp,python,
-    docker,postgresql,nextjs,git,elasticsearch,mongodb,reactjs,tailwind,
+    docker,postgresql,sqlite,nextjs,git,elasticsearch,mongodb,reactjs,tailwind,
     mms, ftp, novaspect, adatafy, wa,
     grad, undergrad,
-    cloud,android,car,cobra,fridge,paper,
+    cloud,android,car,cobra,fridge,paper,maps,
     presentation,cmms,batch,architecture,debug,
     nand2tetris,selfhost,stealthstartup,website,printing,thiswebsite,
   } from "../assets";
@@ -16,10 +16,6 @@ import {
     {
       name: "C",
       icon: clang,
-    },
-    {
-      name: "C#",
-      icon: csharp,
     },
     {
       name: "JavaScript",
@@ -38,6 +34,10 @@ import {
       icon: python,
     },
     {
+      name: "C#",
+      icon: csharp,
+    },
+    {
       name: "PowerShell",
       icon: powershell,
     },
@@ -48,6 +48,10 @@ import {
     {
       name: "PostgreSQL",
       icon: postgresql,
+    },
+    {
+      name: "sqlite3",
+      icon: sqlite,
     },
     {
       name: "ElasticSearch",
@@ -90,10 +94,10 @@ import {
       title: "I speak 2.5 languages—fluently speak French and some Japanese. My Japanese oral skills are weak, but I have had my phone exclusively in Japanese for around 7 years now.",
     },
     {
-      title: "I like video games. I played Rocket League on a semi-professional team for ~2 years. In my limited freetime, I still enjoy playing RTS, FPS, and silly games with my friends. I also have a mini-obsession with Pokémon, which may explain why I learned Japanese.",
+      title: "I like video games. I played Rocket League on a semi-professional team for ~2 years. In my limited free time, I still enjoy playing RTS, FPS, and silly games with my friends. I also have a mini-obsession with Pokémon, which may explain why I learned Japanese.",
     },
     {
-      title: "I am classically trained pianist that still enjoys playing and writing music. I was only a level away from being AIM certified piansist. My parents note that when I worked remote at their house, I would use the piano to help me process difficult technical problems."
+      title: "I am classically trained pianist that still enjoys playing and writing music. I was only a level away from being AIM certified pianist. My parents note that when I worked remote at their house, I would use the piano to help me process difficult technical problems."
     },
     {
       title: "I have my FE! I plan on taking my PE (for ECE) Fall 2025.",
@@ -140,7 +144,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Distibuted Embedded Systems",
+          name: "Distributed Embedded Systems",
           color: "pink-text-gradient",
         },
       ],
@@ -171,7 +175,7 @@ import {
     {
       name: "Android RTOS",
       description:
-        "Modifed an Android kernel to become a real-time operating system. Created a Task Monitor application to display scheduling. Documentation that I wrote was incorporated for future use for later offerings of the course.",
+        "Modified an Android kernel to become a real-time operating system. Created a Task Monitor application to display scheduling. Documentation that I wrote was incorporated for future use for later offerings of the course.",
       tags: [
         {
           name: "C",
@@ -196,7 +200,7 @@ import {
     {
       name: "eBPF Fuzzing",
       description:
-        "Research done over 6 months on functional correctness of Linux's eBPF. This is on-going research at CMU.",
+        "Research done over 6 months finding bugs Linux eBPF using Symbolic Execution. This is on-going research at CMU.",
       tags: [
         {
           name: "C++",
@@ -234,6 +238,34 @@ import {
       ],
       image: fridge,
       source_link: "https://www.jstor.org/stable/community.37868329",
+    },
+    {
+      name: "CMU Efficient Path Traversal (CEPT)",
+      description:
+        "Developed a mobile app prototype for a detailed map of CMU pittsburgh campus, where one can input a classroom and get the fastest route from anywhere else on campus.",
+      tags: [
+        {
+          name: "C++",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "SQL",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Qt6",
+          color: "green-text-gradient",
+        },
+        {
+          name: "sqlite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Software Development",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: maps,
     }
   ];
   
@@ -248,11 +280,19 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "Control Block Diagrams",
+          name: "Function Block Diagram",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
           color: "blue-text-gradient",
         },
         {
           name: "SCADA",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Stimulsoft",
           color: "green-text-gradient",
         },
         {
@@ -277,7 +317,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Distibuted Systems",
+          name: "Distributed Systems",
           color: "pink-text-gradient",
         },
       ],
@@ -287,7 +327,7 @@ import {
     {
       name: "Lua GUI Debugger",
       description:
-        "Developed a localized GUI Debugger that enables developers to look at call stacks, variables, and breakpoints in real-time distributed Lua code. Supported with Mingw64 and luarocks, Product Shipped with WiX toolset.",
+        "Developed a localized GUI Debugger extension for VS code that enables developers to look at call stacks, variables, and breakpoints in real-time distributed Lua code. Supported with Mingw64 and luarocks, Product Shipped with Inno Setup.",
       tags: [
         {
           name: "C",
@@ -298,7 +338,11 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "Debugging",
+          name: "Javascript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Debugger",
           color: "green-text-gradient",
         },
         {
@@ -346,7 +390,11 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Cloud",
+          name: "Automation",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MES",
           color: "pink-text-gradient",
         },
       ],
@@ -369,6 +417,10 @@ import {
           name: "Web Development",
           color: "green-text-gradient",
         },
+        {
+          name: "Cloud",
+          color: "pink-text-gradient",
+        },
       ],
       image: website,
       source_link: "",
@@ -380,11 +432,11 @@ import {
     {
       name: "Self-Hosting",
       description:
-        "I self-host alternatives for Google Drive (nextcloud), Google Photos (immich), and streamming (Jellyfin & Plex) for my friends and family. This website you're viewing right now is also self-hosted!",
+        "I self-host alternatives for Google Drive (NextCloud), Google Photos (Immich), and streaming (Jellyfin & Plex) for my friends and family. This website you're viewing right now is also self-hosted!",
       tags: [
         {
           name: "Nginx",
-          color: "blue-text-gradient",
+          color: "green-text-gradient",
         },
         {
           name: "Docker",
@@ -396,7 +448,7 @@ import {
         },
         {
           name: "Cloudflare",
-          color: "pink-text-gradient",
+          color: "green-text-gradient",
         },
       ],
       image: selfhost,
@@ -406,7 +458,16 @@ import {
       name: "Stealth Start-up",
       description:
         "Co-founded with a current practicing neurosurgeon, We identified a need for a tool in the neuroscience field of research. More information can be provided upon a direct request.",
-      tags: [],
+      tags: [
+        {
+          name: "Go",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "green-text-gradient",
+        }
+      ],
       image: stealthstartup,
       source_link: "",
     },
@@ -473,7 +534,7 @@ import {
   
   const experiences = [
     {
-      title: "Solutions Architect Consultant",
+      title: "Solutions Consultant",
       company_name: "Adatafy™",
       url: "https://adatafy.com/",
       icon: adatafy,
@@ -516,7 +577,7 @@ import {
       iconBg: "#FFFFFF",
       date: "Summer 2018",
       points: [
-        "My first ever software internship. Wrote standards for migrating ~70 legacy interactive advertisement web-brocheurs from VB to VB.net and did the work of migrating them.",
+        "My first ever software internship. Wrote standards for migrating ~70 legacy interactive advertisement web-brochure from VB to VB.net and did the work of migrating them.",
       ],
     },
     {
@@ -527,7 +588,7 @@ import {
       iconBg: "#FFFFFF",
       date: "Fall 2014 - May 2017",
       points: [
-        "This is where my tech career got kick started. I was poking around the school network, which led to a meeting with the IT director. We discovered we both spoke french, and he offered me to work under him replacing my mandatory workstudy hours and paid summers. I pulled cable, installed wall plates, routers, switches, and repaired computers."
+        "This is where my tech career got kick started. I was poking around the school network, which led to a meeting with the IT director. We discovered we both spoke french, and he offered me to work under him replacing my mandatory work-study hours and paid summers. I pulled cable, installed wall plates, routers, switches, and repaired computers."
       ]
     }
   ];
@@ -549,7 +610,7 @@ import {
       branch : "Electrical & Computer Engineering",
       marks:
         "GPA : 4.0 / 4.0",
-      name: "Carnige Mellon University",
+      name: "Carnegie Mellon University",
       year: "(2023 - 2024)",
       image: grad,
     },

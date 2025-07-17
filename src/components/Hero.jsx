@@ -61,7 +61,7 @@ const Hero = () => {
                 <ImLinkedin />
               </a>
               <a
-                href="mailto:sspivey@cmu.edu">
+                href="mailto:simon@spivey.net">
                 <MdEmail />
               </a>
             </div>

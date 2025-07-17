@@ -19,6 +19,7 @@ import powershell from "./tech/powershell.svg";
 import mongodb from "./tech/mongodb.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
+import sqlite from "./tech/sqlite.svg";
 
 //experience
 import adatafy from "./adatafy.png";
@@ -38,6 +39,7 @@ import car from "./project/car.jpg";
 import cobra from "./project/cobra.png";
 import fridge from "./project/fridge.png";
 import paper from "./project/paper.png";
+import maps from "./project/maps.png";
 
 //work photos
 import presentation from "./project/presentation.jpg";
@@ -58,10 +60,10 @@ export {
   logo,myself,
   github,
   clang,csharp,powershell,lua,javascript,typescript,cpp,python,
-  docker,postgresql,nextjs,git,elasticsearch,mongodb,reactjs,tailwind,
+  docker,sqlite,postgresql,nextjs,git,elasticsearch,mongodb,reactjs,tailwind,
   mms,ftp,novaspect,adatafy,wa,
   grad,undergrad,
-  cloud,android,car,cobra,fridge,paper,
+  cloud,android,car,cobra,fridge,paper,maps,
   presentation,cmms,batch,architecture,debug,
   nand2tetris,selfhost,stealthstartup,website,printing,thiswebsite,
 };
