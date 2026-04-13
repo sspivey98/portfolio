@@ -1,11 +1,11 @@
 import {
-    clang,csharp,powershell,lua,javascript,typescript,cpp,python,
+    clang,csharp,powershell,lua,elixir,rust,typescript,cpp,python,
     docker,postgresql,sqlite,nextjs,git,elasticsearch,mongodb,reactjs,tailwind,
     mms, ftp, novaspect, adatafy, wa,
     grad, undergrad,
     cloud,android,car,cobra,fridge,paper,maps,
     presentation,cmms,batch,architecture,debug,
-    nand2tetris,selfhost,stealthstartup,website,printing,thiswebsite,
+    xenotactic,nand2tetris,selfhost,stealthstartup,website,printing,thiswebsite,
   } from "../assets";
 
   const profiles = [
@@ -18,16 +18,20 @@ import {
       icon: clang,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
       name: "TypeScript",
       icon: typescript,
     },
     {
       name: "C++",
       icon: cpp,
+    },
+    {
+      name: "Rust",
+      icon: rust,
+    },
+    {
+      name: "Elixir",
+      icon: elixir,
     },
     {
       name: "Python3",
@@ -455,12 +459,41 @@ import {
       source_link: "",
     },
     {
-      name: "Stealth Start-up",
+      name: "XenoTactic",
       description:
-        "Co-founded with a current practicing neurosurgeon, We identified a need for a tool in the neuroscience field of research. More information can be provided upon a direct request.",
+        "Re-creating a flash game I played as a kid in love2d",
       tags: [
         {
-          name: "Go",
+          name: "Lua",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Love2D",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "WASM",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: xenotactic,
+      source_link: "https://github.com/sspivey98/Xenotactic",
+    },
+    {
+      name: "DAIL",
+      description:
+        "Looking to bring Elixir BEAM capabilities with High Availability to the automation industry",
+      tags: [
+        {
+          name: "Elixir",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Rust",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Lua",
           color: "green-text-gradient",
         },
         {

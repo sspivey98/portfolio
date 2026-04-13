@@ -14,7 +14,7 @@
 ## Deployment
 
 1. `docker build . -t "portfolio:vX.X"` **Step 'RUN npm install' can take a few minutes!
-2. `docker run --name portfolio -p 3000:3000 portfolio:vX.X`
+2. `docker run -d --restart unless-stopped --name portfolio -p 3000:3000 portfolio:vX.X`
 
 ## exporting / importing
 

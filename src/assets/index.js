@@ -13,7 +13,9 @@ import elasticsearch from "./tech/elasticsearch.svg";
 import git from "./tech/git.png";
 import python from "./tech/python.svg";
 import cpp from "./tech/cpp.svg"
-import javascript from "./tech/javascript.png";
+//import javascript from "./tech/javascript.png";
+import rust from "./tech/rust.svg"
+import elixir from "./tech/elixir.svg"
 import typescript from "./tech/typescript.png";
 import powershell from "./tech/powershell.svg"; 
 import mongodb from "./tech/mongodb.png";
@@ -49,6 +51,7 @@ import architecture from "./project/architecture.png";
 import debug from "./project/debugger.png";
 
 //personal
+import xenotactic from "./project/xenotactic.png"
 import nand2tetris from "./project/nand2tetris.png";
 import selfhost from "./project/selfhost.png";
 import stealthstartup from "./project/stealthstartup.png";
@@ -59,11 +62,11 @@ import thiswebsite from "./project/thiswebsite.png"
 export {
   logo,myself,
   github,
-  clang,csharp,powershell,lua,javascript,typescript,cpp,python,
+  clang,csharp,powershell,lua,elixir,rust,typescript,cpp,python,
   docker,sqlite,postgresql,nextjs,git,elasticsearch,mongodb,reactjs,tailwind,
   mms,ftp,novaspect,adatafy,wa,
   grad,undergrad,
   cloud,android,car,cobra,fridge,paper,maps,
   presentation,cmms,batch,architecture,debug,
-  nand2tetris,selfhost,stealthstartup,website,printing,thiswebsite,
+  xenotactic,nand2tetris,selfhost,stealthstartup,website,printing,thiswebsite,
 };
